@@ -1,5 +1,5 @@
 {% set name = "tealdeer" %}
-{% set version = "1.6.1" %}
+{% set version = "1.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/dbrgn/tealdeer/archive/v{{ version }}.tar.gz
-  sha256: d42db25a56a72faec173c86192656c5381281dc197171f385fccffd518930430
+  sha256: 2b10e141774d2a50d25a1d3ca3d911dedc0e1313366ce0a364068c7a686300d8
 
 build:
   number: 0
-  skip: True  # [ppc64le]
+  skip: true  # [ppc64le]
 
 requirements:
   build:
