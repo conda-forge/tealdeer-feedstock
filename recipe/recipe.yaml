@@ -1,5 +1,5 @@
 context:
-  version: "1.7.2"
+  version: "1.8.0"
 
 package:
   name: tealdeer
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dbrgn/tealdeer/archive/v${{ version }}.tar.gz
-  sha256: d0675b9aa48c00e78abafc318b9bfbcb7ea3cce63e58a42c1f9e2395abcfe0e8
+  sha256: b1f1262de60ef3105ff93de71568a68a56ad5874a28f105ab7cb5857d305cdb9
 
 build:
   number: 0
